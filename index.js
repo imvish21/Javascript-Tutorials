@@ -1,4 +1,4 @@
-console.log("Program to add three number")
+console.log("Program to add three numbers")
 
 function add(a,b,c)
 {
