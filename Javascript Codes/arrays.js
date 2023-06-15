@@ -26,3 +26,26 @@ for(let i of a)
 console.log(typeof a)
 const arr=[22,21,45,15]
 console.log(arr)
+//arrays methods
+let num=[1,2,3,4]
+let b = num.toString() //1.
+console.log(b)
+console.log(typeof b)
+let c= num.join("_") //2.
+console.log(c)
+console.log(typeof c)
+num.pop() //3.
+console.log(num)
+let r=num.pop() 
+console.log(r) //r=3 
+num.push("hello") //4.
+console.log(num) 
+let e=num.push(5) 
+console.log(num,e) //e gives the new array length
+let f=num.push(8)
+console.log(num,f) //f gives the new array length
+let g=num.shift() //5.
+console.log(g)
+console.log(num)
+let h=num.unshift(1)
+console.log(num,h) //h gives the new array length
