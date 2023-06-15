@@ -19,3 +19,16 @@ const addstring=(n,m)=>{
 let z="imvish"
 let y=21
 console.log("Username is:",addstring(z,y))
+let marks = {
+    harry : 90,
+    shubham:9,
+    lovish:56
+}
+for(let i=0;i<Object.keys(marks).length;i++)
+{
+    console.log("The marks of"+Object.keys(marks)[i]+"is"+marks[Object.keys(marks)[i]])
+}
+for(let a in marks)
+{
+    console.log("The marks of"+a+"is"+marks[a])
+}
