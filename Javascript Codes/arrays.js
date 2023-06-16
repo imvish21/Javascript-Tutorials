@@ -49,3 +49,10 @@ console.log(g)
 console.log(num)
 let h=num.unshift(1)
 console.log(num,h) //h gives the new array length
+//delete -it is a operator
+let numb=[1,2,3,4,5,6]
+console.log(numb.length)
+delete numb[0]
+console.log(numb)
+console.log(numb.length) //it do not affect the length of array
+
