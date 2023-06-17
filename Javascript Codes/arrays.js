@@ -47,12 +47,35 @@ console.log(num,f) //f gives the new array length
 let g=num.shift() //5.
 console.log(g)
 console.log(num)
-let h=num.unshift(1)
+let h=num.unshift(1)//6.
 console.log(num,h) //h gives the new array length
 //delete -it is a operator
 let numb=[1,2,3,4,5,6]
 console.log(numb.length)
-delete numb[0]
+delete numb[0] //7.
 console.log(numb)
 console.log(numb.length) //it do not affect the length of array
+let ar1=[1,2,3,4]
+let ar2=[11,12,13,14]
+let newar=ar1.concat(ar2); //8.
+console.log(newar)
+//sort method
+let arr3=[1,2,3,20,55,44,32]
+arr3.sort() //9.
+console.log(arr3)
+let compare =(a,b) =>
+{
+    //return a-b;//ascending
+    return b-a;//descending
+}
+arr3.sort(compare)
+console.log(arr3)
+arr3.reverse(); //10.
+console.log("Reversed aaray: ",arr3)
 
+//splice and slice
+let num5=[1,2,3,4]
+num5.splice(2,3,21,22,23,24)
+console.log(num5)
+let num6=num5.slice(1,3)
+console.log(num6)
