@@ -1,6 +1,6 @@
 const { copyFileSync } = require("fs")
 
-let a=[21,22,null,false,"hello"]
+/*let a=[21,22,null,false,"hello"]
 console.log(a[3])
 console.log(a[5])
 console.log("The length or size of array is ",a.length) //size or lenght of array
@@ -78,4 +78,15 @@ let num5=[1,2,3,4]
 num5.splice(2,3,21,22,23,24)
 console.log(num5)
 let num6=num5.slice(1,3)
-console.log(num6)
+console.log(num6) */
+//for loops in arrays
+let num=[4,2,5,6]
+//forEach loop
+num.forEach((element)=>{
+    console.log (element)
+})
+//Array.from
+let name="Harry"
+let arr=Array.from(name)
+console.log(arr)
+//for..of loop
