@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/*.bulb{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}*/
+.bulb-container{
+  height: 100px;
+  width: 100px;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color:green;
+}
+.blue{
+  background-color:blue;
+}
