@@ -1,0 +1,10 @@
+// localStorage.setItem("name","vishal")
+// let a = localStorage.getItem("name")
+// console.log(a)
+// localStorage.removeItem("name")
+// console.log(a)
+// let a = localStorage.length
+// console.log(a)
+let key = prompt("Enter the key:")
+console.log(`The value at ${key} is ${localStorage.getItem(key)}`)
+console.log(localStorage.one)
