@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#cardContainer{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.card{
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 5px #555;
+}
+.card-body{
+  /* border: 2px solid green; */
+  padding: 2rem;
+  justify-content: space-around;
+  
+}
